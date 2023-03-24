@@ -1,4 +1,4 @@
-# macsmc_charged
+# macsmc-charged
 
 A simple little daemon for managing battery charging behaviour on arm macs running (asahi) linux.
 
