@@ -1,0 +1,9 @@
+[Unit]
+Description=battery charge daemon for macsmc
+
+[Service]
+Environment="RUST_LOG_STYLE=SYSTEMD" "RUST_LOG=info"
+ExecStart=/usr/local/bin/macsmc-charged
+
+[Install]
+WantedBy=multi-user.target
